@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Zt-SZ-LPV">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="crayon_1-1.ttf">
+            <string>Nagurigaki-Crayon</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--222-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_021" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="歷年冠軍時刻" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A2a-WZ-Jbf">
+                                <rect key="frame" x="74" y="151" width="285" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="1" green="0.0187217119" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="41"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcf-sG-BKw">
+                                <rect key="frame" x="164" y="351" width="73" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="2005">
+                                    <color key="titleColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="epp-wy-tAo" kind="show" id="L2o-eU-1rx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqR-zQ-x2p">
+                                <rect key="frame" x="165" y="443" width="71" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="2007">
+                                    <color key="titleColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KyN-fI-NXZ" kind="show" id="h37-zA-OFg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azR-jd-jKF">
+                                <rect key="frame" x="165" y="554" width="68" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="2014">
+                                    <color key="titleColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SGT-9m-mOX" kind="show" id="irY-j2-8AP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tC-k8-Sx6">
+                                <rect key="frame" x="162" y="255" width="76" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="2003">
+                                    <color key="titleColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5tP-9b-JnO" kind="show" id="qAp-80-PQZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="222" id="Tgn-Vx-ODN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2868" y="26.600985221674879"/>
+        </scene>
+        <!--2003-->
+        <scene sceneID="MsT-we-Jud">
+            <objects>
+                <viewController title="2003" id="5tP-9b-JnO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8kI-62-ATL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2003" translatesAutoresizingMaskIntoConstraints="NO" id="dLU-dn-xbc">
+                                <rect key="frame" x="50" y="122" width="309" height="415"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86440716019999997" green="1" blue="0.93965541230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="t9t-ud-ROv"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2003" id="x05-zC-PFU">
+                        <barButtonItem key="rightBarButtonItem" image="crown" id="xsD-ps-uIT">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vK4-dR-Dk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3601" y="-18"/>
+        </scene>
+        <!--2014-->
+        <scene sceneID="A4B-rQ-UeQ">
+            <objects>
+                <viewController title="2014" id="SGT-9m-mOX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h2N-eK-6a1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2014" translatesAutoresizingMaskIntoConstraints="NO" id="DzV-K9-8SV">
+                                <rect key="frame" x="72" y="139" width="265" height="379"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86440716019999997" green="1" blue="0.93965541230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4W2-gI-W92"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wE8-NJ-vlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3205.5999999999999" y="800.2463054187192"/>
+        </scene>
+        <!--2007-->
+        <scene sceneID="ZUO-c1-0Qe">
+            <objects>
+                <viewController title="2007" id="KyN-fI-NXZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wvR-19-SdK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2007" translatesAutoresizingMaskIntoConstraints="NO" id="zIU-4B-zLt">
+                                <rect key="frame" x="71" y="140" width="257" height="391"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86440716019999997" green="1" blue="0.93965541230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="O9u-9I-oYM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qpi-vS-aSb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3952.8000000000002" y="734.48275862068965"/>
+        </scene>
+        <!--2005-->
+        <scene sceneID="jJP-wa-V1t">
+            <objects>
+                <viewController title="2005" id="epp-wy-tAo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FbK-b3-hSx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2005" highlightedImage="board" translatesAutoresizingMaskIntoConstraints="NO" id="8xe-Ub-ric">
+                                <rect key="frame" x="78" y="158" width="263" height="307"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86440716019999997" green="1" blue="0.93965541230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sh0-QV-jZ7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="khK-sQ-QN5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4239" y="279"/>
+        </scene>
+        <!--球隊首頁-->
+        <scene sceneID="KzO-wa-Rf7">
+            <objects>
+                <viewController id="beW-y8-KE4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cTP-SM-Zfb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spur" translatesAutoresizingMaskIntoConstraints="NO" id="nBp-Ps-9zB">
+                                <rect key="frame" x="27" y="162" width="340" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="聖安東尼奧馬刺隊" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Lt-CO-K4F">
+                                <rect key="frame" x="83" y="94" width="229" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vvb-wC-fyo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="球隊首頁" image="home" selectedImage="home" id="fKF-dN-jrN"/>
+                    <navigationItem key="navigationItem" id="LHC-sV-CKW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SH4-FZ-pVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1608.8" y="734.48275862068965"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c2n-vT-hsL">
+            <objects>
+                <viewController id="JEu-6P-x1A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mc9-Ts-Rq8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spurs" translatesAutoresizingMaskIntoConstraints="NO" id="pUs-Oh-oED">
+                                <rect key="frame" x="67" y="44" width="278" height="734"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JF9-kX-csC">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="embed" id="Iv4-uR-d8p"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nlN-JJ-QDB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vuo-ov-nCf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="du6-0Y-Co5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2551" y="718"/>
+        </scene>
+        <!--精彩集錦-->
+        <scene sceneID="u4N-5F-Vyo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8N5-kn-yUC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="精彩集錦" image="bar-chart" selectedImage="bar-chart" id="BPM-9q-6Zs"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6bF-Wb-THt">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JEu-6P-x1A" kind="relationship" relationship="rootViewController" id="QDz-d7-3Cg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vmf-sj-uvk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925.5999999999999" y="26.600985221674879"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ou4-8T-aHh">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2Zt-SZ-LPV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qaz-en-I2t">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="beW-y8-KE4" kind="relationship" relationship="viewControllers" id="mnh-d0-Ae8"/>
+                        <segue destination="cdN-Zr-kOB" kind="relationship" relationship="viewControllers" id="Qmk-y7-jM3"/>
+                        <segue destination="8N5-kn-yUC" kind="relationship" relationship="viewControllers" id="c8k-x6-dil"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rAr-41-CoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="983.20000000000005" y="26.600985221674879"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gg2-vA-4A9">
+            <objects>
+                <viewController id="1wc-0z-jBC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mr8-fY-0pX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="33" translatesAutoresizingMaskIntoConstraints="NO" id="Nwy-gK-CJr">
+                                <rect key="frame" x="46" y="158" width="313" height="365"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYm-gG-GFz">
+                                <rect key="frame" x="139" y="542" width="126" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="球員介紹"/>
+                                <connections>
+                                    <segue destination="WIV-rh-gdR" kind="show" id="JVu-bv-PbN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Zjc-iG-PyO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Mx-lr-3YX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fs3-KI-ehw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2418.4000000000001" y="-647.29064039408865"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QdZ-9G-Wqu">
+            <objects>
+                <viewController id="WIV-rh-gdR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SZE-Ot-rzg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spurs" translatesAutoresizingMaskIntoConstraints="NO" id="XoC-gZ-0s3">
+                                <rect key="frame" x="37" y="67" width="322" height="711"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wKT-aW-GZZ">
+                                <rect key="frame" x="0.0" y="88" width="359" height="690"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="BK2-qE-fxg" kind="embed" id="wlS-j0-Fq7"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NzV-Rd-GPl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JfX-Wp-gqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2080.8000000000002" y="-1525.1231527093596"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="sk8-Ei-4AY">
+            <objects>
+                <tableViewController id="BK2-qE-fxg" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9SG-p9-6NJ">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="690"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="eIs-Xf-Mmt">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qa8-Pm-WeS" detailTextLabel="d8H-AG-ECb" imageView="zqK-Mp-dcy" rowHeight="146" style="IBUITableViewCellStyleValue1" id="vZ9-zR-2LZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vZ9-zR-2LZ" id="PuP-uh-Iyj">
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="145.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="9 Tony Parker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qa8-Pm-WeS">
+                                                    <rect key="frame" x="191" y="65" width="94" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="簡介" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d8H-AG-ECb">
+                                                    <rect key="frame" x="291" y="63.000000000000007" width="33" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="tony" id="zqK-Mp-dcy">
+                                                    <rect key="frame" x="16" y="0.0" width="160" height="145.66666666666666"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.86440716019999997" green="1" blue="0.93965541230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="BUn-rD-cQ3" kind="show" id="Lp6-dr-fgy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="HWt-fc-5NY" detailTextLabel="TDm-hg-UrL" imageView="afc-xL-9bH" rowHeight="146" style="IBUITableViewCellStyleValue1" id="FP2-WH-YIB">
+                                        <rect key="frame" x="0.0" y="146" width="359" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FP2-WH-YIB" id="1Tb-Sa-4H4">
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="145.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="20 Manu Ginobili" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HWt-fc-5NY">
+                                                    <rect key="frame" x="177" y="66" width="108.66666666666667" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="簡介" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TDm-hg-UrL">
+                                                    <rect key="frame" x="291.66666666666669" y="63.000000000000007" width="32.333333333333329" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="manu" id="afc-xL-9bH">
+                                                    <rect key="frame" x="16" y="0.0" width="146" height="145.66666666666666"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96990162130000002" green="0.72859293219999999" blue="0.70949333910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="VTA-Mm-ZyM" kind="show" id="cSa-Bc-eiO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="zR1-eI-jaf" detailTextLabel="gTN-Ou-eZt" imageView="AkP-lA-ej4" rowHeight="146" style="IBUITableViewCellStyleValue1" id="npw-f4-wV6">
+                                        <rect key="frame" x="0.0" y="292" width="359" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="npw-f4-wV6" id="P4m-V5-SoH">
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="145.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="21 Tim Duncan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zR1-eI-jaf">
+                                                    <rect key="frame" x="177" y="63.000000000000007" width="113.33333333333333" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="簡介" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gTN-Ou-eZt">
+                                                    <rect key="frame" x="296.33333333333331" y="63.000000000000007" width="27.666666666666671" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="tim3" id="AkP-lA-ej4">
+                                                    <rect key="frame" x="16" y="0.0" width="146" height="145.66666666666666"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.91913527559999997" blue="0.8391755219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="3qS-x8-qfo" kind="show" id="Dhr-xX-rwe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="k4z-rH-pbA" detailTextLabel="PKq-pz-Mvu" imageView="Sjr-Wd-STk" rowHeight="146" style="IBUITableViewCellStyleValue1" id="TaK-vb-2aX">
+                                        <rect key="frame" x="0.0" y="438" width="359" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TaK-vb-2aX" id="WdY-Yr-vU5">
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="145.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="8 Patrick Mills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k4z-rH-pbA">
+                                                    <rect key="frame" x="168" y="63.000000000000007" width="106.66666666666667" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="簡介" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PKq-pz-Mvu">
+                                                    <rect key="frame" x="289.33333333333337" y="63.000000000000007" width="34.666666666666664" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="pat" id="Sjr-Wd-STk">
+                                                    <rect key="frame" x="16" y="0.0" width="137" height="145.66666666666666"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.86440716019999997" green="1" blue="0.93965541230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="OxJ-73-FT3" kind="show" id="qYS-w0-8wi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="FrR-hn-x4K" detailTextLabel="m3I-zX-ymv" imageView="ccK-uw-XQA" rowHeight="146" style="IBUITableViewCellStyleValue1" id="5jp-YT-tlq">
+                                        <rect key="frame" x="0.0" y="584" width="359" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5jp-YT-tlq" id="Z5y-NH-Td2">
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="145.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="12 Aldridge" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FrR-hn-x4K">
+                                                    <rect key="frame" x="190" y="63.000000000000007" width="86.333333333333329" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="簡介" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m3I-zX-ymv">
+                                                    <rect key="frame" x="289.33333333333337" y="63.000000000000007" width="34.666666666666664" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="agg5" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="ccK-uw-XQA">
+                                                    <rect key="frame" x="16" y="0.0" width="159" height="145.66666666666666"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="p68-T1-776" kind="show" id="DG1-Cq-BlH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="jGH-V7-Jtm" detailTextLabel="UYA-nX-Kbs" imageView="4bG-Nd-OTH" rowHeight="146" style="IBUITableViewCellStyleValue1" id="cMA-88-Ysy">
+                                        <rect key="frame" x="0.0" y="730" width="359" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cMA-88-Ysy" id="oPU-cP-pTY">
+                                            <rect key="frame" x="0.0" y="0.0" width="333" height="145.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="33 Boris Diaw" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jGH-V7-Jtm">
+                                                    <rect key="frame" x="191" y="63.000000000000007" width="105.33333333333333" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="簡介" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UYA-nX-Kbs">
+                                                    <rect key="frame" x="302.33333333333331" y="63.000000000000007" width="21.666666666666671" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="bd" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="4bG-Nd-OTH">
+                                                    <rect key="frame" x="15" y="0.0" width="161" height="145.66666666666666"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96990162130000002" green="0.72859293219999999" blue="0.70949333910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="LRO-IF-NaY" kind="show" id="4Kt-ld-REG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="BK2-qE-fxg" id="wf7-Oo-4QX"/>
+                            <outlet property="delegate" destination="BK2-qE-fxg" id="kef-R8-fRj"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCl-Hk-vpD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3270" y="-1193"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ppB-k1-vmX">
+            <objects>
+                <viewController id="VTA-Mm-ZyM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0cD-gp-jcf">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="690"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GP8-BD-68r">
+                                <rect key="frame" x="67" y="118" width="292" height="611"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">伊曼紐爾·大衛·「馬路」·吉諾比利·馬卡利（西班牙語：Emanuel David "Manu" Ginóbili Maccari，1977年7月28日－），阿根廷職業籃球運動員，其NBA生涯效力於聖安東尼奧馬刺隊，綽號「鬼之切入」、「妖刀」、「阿根廷刺客」，球衣號碼為20號，場上位置為得分後衛。他身高1米98，體重93公斤。左手球員，善於蛇形突破和遠射，並有獨門絕技歐洲步，連火箭隊的詹姆士·哈登都承認自己打球的風格樣版正是吉諾比利，巔峰期間的吉諾比利就是無解般的存在，能利用切入撕裂對方的禁區防守。2005年總冠軍系列戰，即使是銅牆鐵壁的底特律活塞也擋不住。然而，這樣一張的王牌級球員，卻甘心在馬刺扮演最佳第六人，與提姆·鄧肯和東尼·帕克組成「GDP三巨頭」，幫助馬刺隊於2003、2005、2007、2014年獲得NBA總冠軍。
+
+2018年8月28日，馬路正式宣布退休，結束16年於馬刺隊的NBA生涯。其在馬刺隊的20號球衣也於2019年3月28日，馬刺主場對騎士的比賽中高掛</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Zl0-QF-CLf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gSV-rA-lQV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4393" y="-1555"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZKq-sc-9FK">
+            <objects>
+                <viewController id="p68-T1-776" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aFM-oF-zt6">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="690"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JUO-lb-g1y">
+                                <rect key="frame" x="67" y="88" width="292" height="690"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">拉瑪庫斯·諾萊·艾德里奇（英語：LaMarcus Nurae Aldridge，1985年7月19日－），出生於德克薩斯州達拉斯，美國職業籃球運動員，暱稱『Agg』、『LMA』。目前效力於NBA聯盟的聖安東尼奧馬刺，場上位置為大前鋒或中鋒。大學時曾就讀於德克薩斯大學奧斯汀分校。在2006年NBA選秀中，於首輪第二順位被芝加哥公牛選中，隨後交易至波特蘭拓荒者。目前被普遍認為是現役最優秀的大前鋒之一。   艾德里奇廣為人知的招式為後仰跳投，且中距離以及面框投籃命中率穩定，集優異的身體素質和細膩技術於一身。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EnG-ef-LJU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RfG-8t-94R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3359" y="-403"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XgX-To-Gks">
+            <objects>
+                <viewController id="OxJ-73-FT3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sw3-qD-ct3">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="690"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nuj-SH-kvN">
+                                <rect key="frame" x="67" y="88" width="276" height="629"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">派屈克·薩米·米爾斯（英語：Patrick Sammie Mills，1988年8月11日－），澳大利亞職業籃球運動員，現效力於美國NBA聯盟。他在2009年NBA選秀中第2輪第25順位被波特蘭拓荒者選中，是NBA有史以來第二位澳洲原住民球員                              米爾斯來自澳洲坎培拉，自小參加過多項運動，包括澳洲足球。15 歲時Patty 便參加澳洲U18 賽事，隔年即接受澳洲體育學院獎學金，和A. Bogut、WNBA 的MVP－L. Jackson 一起磨練球技。但讓Patty 大放異彩的還是在北京奧運。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uPd-J2-zAf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bme-NL-Mcf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4010" y="-444"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HWM-Au-4dl">
+            <objects>
+                <viewController id="3qS-x8-qfo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sUY-8r-ff9">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="690"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="07S-8p-rOc">
+                                <rect key="frame" x="64" y="101" width="283" height="611"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">提摩西·西奧多·鄧肯（英語：Timothy Theodore Duncan，1976年4月25日－），一般稱為提姆·鄧肯（Tim Duncan），綽號「大基本功」（The Big Fundamental）、「叮噹肯」（Tinkle Can）、「雪芙」、「石佛」，生於美屬維京群島首府克里斯琴斯特德，前職業籃球運動員，場上位置為大前鋒/中鋒，隸屬NBA聖安東尼奧馬刺。
+
+鄧肯在中學之前是一位游泳選手，在高中成為一名籃球選手，在維克弗斯特大學加入籃球校隊，獲得了大西洋沿岸聯盟最佳運動員、奈史密斯學院年度最佳球員、約翰伍登獎。畢業後，鄧肯以狀元身份加入馬刺隊， 鄧肯被廣泛認為是史上最好的大前鋒。他曾獲得2次最有價值球員，並且五度帶領馬刺隊在1999年、2003年、2005年、2007年和2014年獲得NBA總冠軍，更年年進入季後賽，亦三度成為NBA總決賽最有價值球員。此外，鄧肯還十五度入選NBA全明星賽、十五度入選NBA最佳陣容、十五度入選NBA最佳防守陣容。2016年7月11日正式宣布退休，結束了長達19年的NBA球員生涯，職業球員生涯都在聖安東尼奧馬刺隊渡過。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8uy-0y-S3Z"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KnF-j4-Tjk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4224.8000000000002" y="-1018.2266009852217"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dHG-3K-579">
+            <objects>
+                <viewController id="LRO-IF-NaY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fsK-7x-8ku">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="690"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oeO-qm-mdH">
+                                <rect key="frame" x="91" y="70" width="240" height="674"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">伯利斯·巴巴卡·迪奧-里菲奧（法語：Boris Babacar Diaw-Riffiod，1982年4月16日－），出生於法國柯爾梅耶，綽號「下午茶時間」（Tea Time），法國職業籃球運動員。曾效力於美國NBA，現已退休。職業生涯平均每場拿下9.8分、4.9籃板和4.0助攻。2003年NBA選秀中，他於首輪總第21位被亞特蘭大老鷹隊選中，兩個賽季後，於2005年被交換到了鳳凰城太陽隊，同他交換的球員為喬·強森。
+2008年，伯利斯·迪奧和拉加·貝爾被交換到夏洛特山貓隊，換來傑森·理察森和賈萊德·杜德利，但之後和夏洛特山貓合作的不愉快。
+2012年3月下旬，伯利斯·迪奧經帕克的牽線而來到了聖安東尼奧馬刺，並為球隊打出亮眼的成績。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YbX-g2-Ike"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBe-5Q-LDO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3021.5999999999999" y="-1899.0147783251232"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wBq-OF-PEq">
+            <objects>
+                <viewController id="BUn-rD-cQ3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Czl-Xi-suf">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="690"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KLn-X2-p5B">
+                                <rect key="frame" x="42" y="123" width="317" height="606"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">帕克身高6英尺2英寸（1.88米），體重185磅（84公斤），在場上主要擔任控球後衛的位置，作為一名有效率的得分手。他在2007年的投票中被票選為NBA速度最快的球員之一，他經常利用自己在速度和身材上的優勢切入到禁區直接進行上籃或中距離拋投。儘管帕克的身材矮小，但在2005–06賽季有很長一段時間，他在「禁區」的得分效率位於聯盟前段。
+
+帕克的職業生涯初期，他被認為是一名不穩定的射手。於是在2005年的休賽期，總教練波波維奇為了能讓帕克在比賽中發揮更大作用，找了馬刺的投籃教練奇普·恩格蘭特來指導帕克。恩格蘭特首先禁止帕克在比賽中任意亂投三分球，並逐步糾正他的投籃動作和手指位置。結果在2006–07賽季，帕克已經將他的三分球命中率提升至39.5%，而他的投籃命中次數增加了147次，整體命中率也提高了4%（投籃命中率和三分球命中率）。在那個賽季，帕克的罰球命中率高達78%。以一名控球後衛來說，帕克的投籃命中率已經高於水準，他的推進速度也讓他成為一名高效率的快攻得分手。然而帕克的球風對於他的膝蓋負擔很大，容易產生不良影響</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1ce-AJ-zgB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gzL-oW-kH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3764" y="-1987"/>
+        </scene>
+        <!--球員-->
+        <scene sceneID="Jwo-aA-ink">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cdN-Zr-kOB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="球員" image="man" selectedImage="man" id="Yrn-dX-k1a"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d2q-dE-ecm">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1wc-0z-jBC" kind="relationship" relationship="rootViewController" id="f9E-zF-ouW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ek3-Nj-PKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1476" y="-647.29064039408865"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2003" width="201" height="251"/>
+        <image name="2005" width="274" height="184"/>
+        <image name="2007" width="284" height="177"/>
+        <image name="2014" width="251" height="201"/>
+        <image name="33" width="279" height="181"/>
+        <image name="agg5" width="234" height="215"/>
+        <image name="bar-chart" width="30" height="30"/>
+        <image name="bd" width="236" height="213"/>
+        <image name="board" width="240" height="210"/>
+        <image name="crown" width="30" height="30"/>
+        <image name="home" width="30" height="30"/>
+        <image name="man" width="30" height="30"/>
+        <image name="manu" width="225" height="225"/>
+        <image name="pat" width="218" height="232"/>
+        <image name="spur" width="236" height="236"/>
+        <image name="spurs" width="225" height="225"/>
+        <image name="tim3" width="225" height="225"/>
+        <image name="tony" width="235" height="214"/>
+    </resources>
+</document>
